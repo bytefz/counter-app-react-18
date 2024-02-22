@@ -1,0 +1,45 @@
+.counter-card{
+
+    background-color: #fff;
+    color: #F6923D;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #fff;
+    margin: 10px;
+}
+
+.counter-card:hover{
+    transform: scale(1.1);
+    border-color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.number{
+    color: #422711;
+    margin: 10px 0;
+}
+
+.buttons{
+    padding-top: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+button{
+    background-color: #F6923D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background-color: #422711;
+    transform: scale(1.2);
+}
